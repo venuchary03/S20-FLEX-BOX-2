@@ -1,0 +1,250 @@
+.flexContainer{
+    width: 1200px;
+    height: 600px;
+    margin: 10px;
+    background-color: rgb(201, 222, 240);
+    display: flex;
+}
+.flexItems{
+    width: 80px;
+    height: 80px;
+    background-color:palevioletred;
+    color: black;
+    border : 1.5px solid goldenrod;
+    text-align: center;
+    border-radius: 10px;
+    text-align: center;
+    font-size : 4rem;
+}
+
+
+.container{
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-items: center;
+}
+
+/*.item{
+    width: 80px;
+    height: 80px;
+    background-color:palevioletred;
+    color: black;
+    border : 1.5px solid goldenrod;
+    text-align: center;
+    border-radius: 10px;
+    text-align: center;
+    font-size : 4rem;
+}
+*/
+
+.container1{
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: end;
+    text-align: center;
+    
+}
+
+/*.item1{
+    width: 80px;
+    height: 80px;
+    background-color:palevioletred;
+    color: black;
+    border : 1.5px solid goldenrod;
+    text-align: center;
+    border-radius: 10px;
+    text-align: center;
+    font-size : 4rem;  
+}
+*/
+
+.container2{
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*
+.item2{
+    width: 80px;
+    height: 80px;
+    background-color:palevioletred;
+    color: black;
+    border : 1.5px solid goldenrod;
+    text-align: center;
+    border-radius: 10px;
+    text-align: center;
+    font-size : 4rem;
+}
+*/
+
+
+.container3{
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: end;
+}
+
+/*
+.item3{
+    width: 80px;
+    height: 80px;
+    background-color:palevioletred;
+    color: black;
+    border : 1.5px solid goldenrod;
+    text-align: center;
+    border-radius: 10px;
+    text-align: center;
+    font-size : 4rem;
+}*/
+
+.container4{
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-items: stretch;
+}
+
+.item4{
+    /*width: 80px;
+    height: 80px;*/
+    background-color:palevioletred;
+    color: black;
+    border : 1.5px solid goldenrod;
+    text-align: center;
+    border-radius: 10px;
+    text-align: center;
+    font-size : 4rem;
+}
+.container5{
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-items: stretch;
+}
+
+.item5{
+    /*width: 80px;
+    height: 80px;*/
+    background-color:palevioletred;
+    color: black;
+    border : 1.5px solid goldenrod;
+    text-align: center;
+    border-radius: 10px;
+    text-align: center;
+    font-size : 4rem;
+}
+.container6{
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-items: baseline;
+}
+
+/*
+.item6{
+    width: 80px;
+    height: 80px;
+    background-color:palevioletred;
+    color: black;
+    border : 1.5px solid goldenrod;
+    text-align: center;
+    border-radius: 10px;
+    text-align: center;
+    font-size : 4rem;
+}
+*/
+
+.container7{
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-items: center;
+}
+
+/*
+.item7{
+    width: 80px;
+    height: 80px;
+    background-color:palevioletred;
+    color: black;
+    border : 1.5px solid goldenrod;
+    text-align: center;
+    border-radius: 10px;
+    text-align: center;
+    font-size : 4rem;
+}*/
+
+.container8{
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    justify-content: end;
+    align-items: start;
+}
+
+/*
+.item8{
+    width: 80px;
+    height: 80px;
+    background-color:palevioletred;
+    color: black;
+    border : 1.5px solid goldenrod;
+    text-align: center;
+    border-radius: 10px;
+    text-align: center;
+    font-size : 4rem;
+}*/
+
+.container9{
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+/*
+.item9{
+    width: 80px;
+    height: 80px;
+    background-color:palevioletred;
+    color: black;
+    border : 1.5px solid goldenrod;
+    text-align: center;
+    border-radius: 10px;
+    text-align: center;
+    font-size : 4rem;
+}*/
+
+.container10{
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-items: start;
+}
+
+
+.item11{
+    width: 100px;
+    height: 80px;
+    background-color:palevioletred;
+    color: black;
+    border : 1.5px solid goldenrod;
+    text-align: center;
+    border-radius: 10px;
+    text-align: center;
+    font-size : 4rem;
+}
+.container11{
+    width: 1200px;
+    height: 600px;
+    margin: 10px;
+    background-color: rgb(201, 222, 240);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+}
